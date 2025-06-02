@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayMe Digital Games</title>
+
+    <link rel="stylesheet" href="./style/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!--Flex container-->
+    <header>
+        <h1>PlayMe Digital Games</h1>
+        
+        <!-- Flex item -->
+        <nav>
+            <ul>
+                <li><a href="#">Start</a></li>
+                <li><a href="./pages/aboutus.html">About us</a></li>
+                <li><a href="./pages/contact.html">Contact</a></li>
+                <li><a href="./pages/joinus.html">Join us</a></li>
+                <li><a href="./pages/products.html">Products</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Principal content -->
+    <main>
+        <section>
+        
+            <h2>You cant wait to play your next adventure</h2>
+            <p class="findyour">Find your favorite games in our website!</p>
+
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam enim porro et consequatur accusamus esse eos
+                provident sint iusto quasi placeat officiis, dolorum, inventore
+                neque dolor eligendi. Aperiam, veritatis molestias!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Error voluptates aliquid ratione hic vero quidem amet, inventore quam culpa nisi corrupti libero natus
+                necessitatibus unde dignissimos assumenda similique! Ipsam, non.
+            </p>
+
+        </section>
+        <section style="padding: 2rem; background-color: #f5f5f5;">
+  <h2 style="text-align: center; margin-bottom: 2rem;">Search by category</h2>
+
+  <div class="games-grid">
+    <article>
+      <h3 style="color: orangered;">Games for Playstation</h3>
+      <img src="./imagenes/ffrebirth.png" alt="Final Fantasy Rebirth" width="300px">
+      <p>Final Fantasy Rebirth (Digital deluxe edition)</p>
+    </article>
+
+    <article>
+      <h3 style="color: orangered;">Games for Xbox</h3>
+      <img src="./imagenes/tekken.png" alt="Tekken 7" width="300px">
+      <p>Tekken 7</p>
+    </article>
+
+    <article>
+      <h3 style="color: orangered;">Games for Nintendo</h3>
+      <img src="./imagenes/pokemon.png" alt="Pokemon Legends Arceus" width="250px">
+      <p>Pokémon Legends Arceus</p>
+    </article>
+  </div>
+</section>
+
+<style>
+  .games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+    align-items: start;
+  }
+
+  .games-grid article {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.2s;
+  }
+
+  .games-grid article:hover {
+    transform: translateY(-5px);
+  }
+
+  .games-grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .games-grid p {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+</style>
+
+    </main> <br>
+
+    <nav class="down">
+        <ul>
+            <li><a href="#">Start</a></li>
+            <li><a href="./pages/aboutus.html">About us</a></li>
+            <li><a href="./pages/contact.html">Contact</a></li>
+            <li><a href="./pages/joinus.html">Join us</a></li>
+            <li><a href="./pages/products.html">Products</a></li>
+
+        </ul>
+    </nav>
+
+    <footer>
+        <p>© All rights reserved</p>
+    </footer>
+
+</body>
+</html>
